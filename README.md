@@ -11,7 +11,8 @@ Aceito opniões e/ou colaboração para melhorias no mesmo..
 
 No repositorio tem todos os arquivos necessarios, e o bkp do banco conta com um usuario e senha para primeiro acesso.
 
-Login: admin 
+Login: admin
+
 Senha: admin
 
 ## 📦 Desenvolvimento
