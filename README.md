@@ -19,7 +19,7 @@ Senha: admin
 Desenvolvido de forma estrutural, utilizando as linguagens PHP, JavaScript, HTML5 e CSS3.
 
 
-## ✒️ Autores
+## ✒️ Autor
 
 
 * **Bruno Carneiro** - *Trabalho Inicial* - [umdesenvolvedor](https://github.com/brunoadcarneiro)
