@@ -4,6 +4,7 @@ Este foi um projeto desenvolvido durante o meu curso tecnico, usado como projeto
 
 ## 🚀 Começando
 
+
 Aceito opniões e/ou colaboração para melhorias no mesmo..
 
 
@@ -17,7 +18,9 @@ Senha: admin
 
 ## 📦 Desenvolvimento
 
+
 Desenvolvido de forma estrutural, utilizando as linguagens PHP, JavaScript, HTML5 e CSS3.
+
 
 
 ## ✒️ Autor
