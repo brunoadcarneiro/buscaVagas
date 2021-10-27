@@ -1,0 +1,3 @@
+SELECT *,DATE_FORMAT( nome_campo, "%d/%m/%Y" ) AS nome_campo FROM tabela
+
+pega a data em ingles na tabela e converte pro formato br

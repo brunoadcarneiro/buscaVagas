@@ -1,0 +1,339 @@
+/* CSS Principal */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    width: auto;
+    height: auto;
+    /* background: #46a249 url(../img/texture.png); */
+    background-color: #fff;
+    padding: 0;
+    margin: 0;
+}
+
+
+/* CSS Organiza Conteudo */
+
+.organiza {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    width: 100%;
+    height: 100vh;
+    grid-template-rows: 10fr 95fr 1fr;
+    grid-template-areas: "header header" "main main" "footer footer";
+    align-content: space-between;
+}
+
+header {
+    grid-area: header;
+}
+
+main {
+    grid-area: main;
+}
+
+footer {
+    grid-area: footer;
+}
+
+
+/* CSS Menu */
+
+.menu1 {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    font-size: 23px;
+    color: #261213;
+}
+
+.menu-principal {
+    background-color: #0f9549;
+    background: #0e9549 url(../img/texture.png);
+    color: #fff !important;
+    border-bottom: solid 4px #abce31;
+    height: 90px;
+    width: auto;
+    padding: 0;
+    font-family: Arial;
+    font-size: 14px;
+    margin: 0;
+}
+
+.header1 div {
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    max-width: 1280px;
+    position: relative;
+}
+
+
+/* 
+iframe {
+    width: 95%;
+    height: 450px;
+    border: 0;
+    margin: 10px;
+}
+
+.frameVagas {
+    width: 95%;
+    height: 780px;
+    background-color: #fff;
+    color: #093f2a;
+    width: 95%;
+    max-width: 900px;
+    margin: auto;
+    margin-top: 15px;
+    padding-top: 5px;
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+    border-radius: 15px 15px 15px 15px;
+}
+ */
+
+.mainP {
+    width: auto;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.main1 {
+    display: flex;
+    width: 95%;
+    max-width: 900px;
+    height: auto;
+    background-color: transparent;
+    color: #093f2a;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+
+
+/* CSS Rodapé */
+
+.rodape div {
+    width: 100%;
+    height: auto;
+    /* background-color: #0e9549; */
+    background: #0e9549 url(../img/texture.png);
+    text-align: center;
+}
+
+.rodape1 div {
+    margin: 0 auto;
+    width: 800px;
+}
+
+.rodape1 p {
+    color: #f1f1f1 !important;
+    font-family: Bahnschrift SemiBold;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* CSS dos Botões */
+
+.txtbox {
+    margin-left: 15px;
+    padding: 10px;
+}
+
+.botaoDiv {
+    display: flex;
+}
+
+
+/* Conteudo do Main */
+
+.dividiinput {
+    display: flex;
+}
+
+.input2 {
+    height: auto;
+    padding: 0;
+    margin: 0;
+}
+
+.input4 {
+    display: block;
+    height: auto;
+    padding: 0;
+    margin: 0;
+}
+
+.input1 {
+    margin-right: 25px;
+}
+
+.input3 {
+    margin-left: 25px;
+}
+
+.comp {
+    width: auto;
+    height: auto;
+    font-size: 15pt;
+    margin-top: 5%;
+}
+
+.registroformulario {
+    width: 350px;
+    margin: 0 auto;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.conteudo {
+    background-color: #fff;
+    color: #093f2a;
+    width: 95%;
+    height: auto;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 10px;
+    /* padding-top: 5px;
+    margin-bottom: 15px;
+    padding-bottom: 5px; */
+    /* border-radius: 15px 15px 15px 15px;
+    box-shadow: inset 1px 1px 7px rgba(0, 0, 0, 0.952); */
+}
+
+p {
+    color: #093f2a !important;
+    font-family: Bahnschrift SemiBold;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 8px;
+    padding-left: 5px;
+}
+
+.cad {
+    margin: 8px;
+    padding: 5px;
+    width: auto;
+    font-family: Bahnschrift SemiBold;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #40e0d0;
+}
+
+.cadErro {
+    margin: 8px;
+    padding: 5px;
+    width: auto;
+    font-family: Bahnschrift SemiBold;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #ff1509;
+}
+
+
+/* Configuração do formulario */
+
+form {
+    padding: 10px;
+}
+
+.titulo {
+    font-family: Bahnschrift SemiBold;
+    color: #093f2a;
+    margin-top: -5px;
+    font-size: 18pt;
+}
+
+.txtcheck {
+    font-family: Bahnschrift SemiBold;
+    color: #093f2a;
+    margin-top: -5px;
+    font-size: 16pt;
+}
+
+.txtentra {
+    border: 0;
+    box-shadow: inset 1px -2px 1px rgba(0, 0, 0, 0.829);
+    width: 100%;
+    height: 4vh;
+    font-size: 14pt;
+}
+
+.txtentradtn {
+    border: 0;
+    box-shadow: inset 1px -2px 1px rgba(0, 0, 0, 0.829);
+    width: 400px;
+    height: 4vh;
+    font-size: 14pt;
+}
+
+.tel {
+    border: 0;
+    box-shadow: inset 1px -2px 1px rgba(0, 0, 0, 0.829);
+    width: 100%;
+    height: 4vh;
+    font-size: 14pt;
+}
+
+.cel {
+    border: 0;
+    box-shadow: inset 1px -2px 1px rgba(0, 0, 0, 0.829);
+    width: 100%;
+    height: 4vh;
+    font-size: 14pt;
+}
+
+.dinheiro {
+    border: 0;
+    box-shadow: inset 1px -2px 1px rgba(0, 0, 0, 0.829);
+    width: 100%;
+    height: 4vh;
+    font-size: 14pt;
+}
+
+.txtarea {
+    border: 0;
+    box-shadow: inset 1px -2px 1px rgba(0, 0, 0, 0.829);
+    width: 100%;
+    height: 200px;
+    font-size: 14pt;
+}
+
+.selentra {
+    border: 0;
+    box-shadow: inset 1px -2px 1px rgba(0, 0, 0, 0.829);
+    width: 220px;
+    height: 4vh;
+    font-size: 14pt;
+}
+
+.selentra2 {
+    border: 0;
+    box-shadow: inset 1px -2px 1px rgba(0, 0, 0, 0.829);
+    width: 100%;
+    height: 4vh;
+    font-size: 14pt;
+}
+
+.checa {
+    box-shadow: inset 1px -2px 1px rgba(0, 0, 0, 0.829);
+}
+
+select:hover {
+    background: #0a75002f;
+}
+
+textarea:hover {
+    background: #0a75002f;
+}

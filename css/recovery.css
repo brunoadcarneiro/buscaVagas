@@ -1,0 +1,118 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap');
+
+html,body{
+background: #46a249 url(/img/texture.png);
+height: 100%;
+font-family: 'Inter', sans-serif;
+}
+
+.container{
+height: 100%;
+align-content: center;
+}
+
+.card{
+height: 300px;
+margin-top: auto;
+margin-bottom: auto;
+width: 400px;
+background-color: rgba(0,0,0,0.5) !important;
+border-radius: 15px;
+}
+
+.cardR {
+height: 420px;
+margin-top: auto;
+margin-bottom: auto;
+width: 400px;
+background-color: rgba(0,0,0,0.5) !important;
+border-radius: 15px;
+}
+
+.card-header h3{
+color: white;
+}
+
+.social_icon{
+position: absolute;
+left: -40px;
+top: -40px;
+}
+
+.input-group-prepend span{
+width: 43px;
+color: black;
+border:0 !important;
+}
+
+input:focus{
+outline: 0 0 0 0  !important;
+box-shadow: 0 0 0 0 !important;
+
+}
+
+.remember{
+color: white;
+}
+
+.remember input
+{
+width: 20px;
+height: 20px;
+margin-left: 15px;
+margin-right: 5px;
+}
+
+.login_btn{
+color: black;
+background-color: #0e9549;
+text-align: center;
+border-radius: 4px;
+border: 1px solid rgba(0, 0, 0, 0.6);
+box-shadow: 3px 3px 3px #000;
+padding: 5px;
+outline: none;
+color: #fff;
+cursor: pointer; /*muda cursor moouse*/
+transition: 0.75px;
+height: 40px;
+font-size: 16px;
+font-weight: bold;
+width: 100px;
+}
+
+.login_btn:hover{
+color: black;
+background-color: white;
+}
+
+.links{
+color: white;
+}
+
+.links a{
+margin-left: 4px;
+}
+
+a {
+	text-decoration: none;
+	color: #fff;
+}
+
+a:hover {
+    color: #b8aeae;
+	font-weight: bold;
+    text-decoration: none;
+}
+
+.social_icon a{
+	text-decoration: none;
+	color: #0af36f;
+}
+
+.social_icon a:hover {
+    color: #fff;
+	font-weight: bold;
+    text-decoration: none;
+}
