@@ -26,5 +26,9 @@ Desenvolvido de forma estrutural, utilizando as linguagens PHP, JavaScript, HTML
 ## ✒️ Autor
 
 
-* **Bruno Carneiro** - *Trabalho Inicial* - [@brunoadcarneiro](https://github.com/brunoadcarneiro)
+* **Bruno Carneiro** - [@brunoadcarneiro](https://github.com/brunoadcarneiro)
+
+
+
+
 
